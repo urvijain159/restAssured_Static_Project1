@@ -23,7 +23,7 @@ import req_Repo_pkg.Post_request_Repo;
                 String res_body=API_Common_Functions.response_body(Post_request_Repo.base_URI(),
         		                  Post_request_Repo.post_req_tc2(),Post_request_Repo.post_resource());
                 Post_tc2.post_res_validator(res_body,statusCode);
-                Utility_CommonFunctions.creator("post_tc_2", Post_request_Repo.post_req_tc2(), res_body);
+                Utility_CommonFunctions.creator("post_tc2", Post_request_Repo.post_req_tc2(), res_body);
                 break;
         
            }

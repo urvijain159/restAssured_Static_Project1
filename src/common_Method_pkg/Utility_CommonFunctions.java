@@ -15,7 +15,7 @@ public class Utility_CommonFunctions {
 	public static void creator(String eve_filename,String req_body,String res_body) throws IOException
 	{
 		File newfile=new File("C:\\Users\\Admin\\Desktop\\restAssuredProject\\" +eve_filename+".txt");
-		System.out.println("a new text file created with name:" +newfile.getName());
+		System.out.println(" A new text file created with name:" +newfile.getName());
 		
 		FileWriter datawriter=new FileWriter(newfile);
 		datawriter.write("Request Body :"+"\n" +req_body+"\n\n");

@@ -19,7 +19,7 @@ public class Post_request_Repo {
 	}
 	
 	public static String post_req_tc1() throws IOException {
-	ArrayList<String> data=Utility_CommonFunctions.readdataexcel("Post_Test_Data","post_tc_1");
+	ArrayList<String> data=Utility_CommonFunctions.readdataexcel("Post_Test_Data","post_tc1");
 	String req_name=data.get(1);
 	String req_job=data.get(2);
 	
@@ -32,7 +32,7 @@ public class Post_request_Repo {
 	}
 	
 	public static String post_req_tc2( ) throws IOException {
-		ArrayList<String> data=Utility_CommonFunctions.readdataexcel("Post_Test_Data","post_tc_2");
+		ArrayList<String> data=Utility_CommonFunctions.readdataexcel("Post_Test_Data","post_tc2");
 		String req_name=data.get(1);
 		String req_job=data.get(2);
 		
@@ -45,7 +45,7 @@ public class Post_request_Repo {
 		}
 	
 	public static String post_req_tc3( ) throws IOException {
-		ArrayList<String> data=Utility_CommonFunctions.readdataexcel("Post_Test_Data","post_tc_3");
+		ArrayList<String> data=Utility_CommonFunctions.readdataexcel("Post_Test_Data","post_tc3");
 		String req_name=data.get(1);
 		String req_job=data.get(2);
 		
